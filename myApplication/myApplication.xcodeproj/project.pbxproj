@@ -11,7 +11,6 @@
 		7929D0D32731565A00D33F5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7929D0D22731565A00D33F5D /* ViewController.swift */; };
 		7929D0D52731565B00D33F5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7929D0D42731565B00D33F5D /* Assets.xcassets */; };
 		7929D0D82731565B00D33F5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7929D0D62731565B00D33F5D /* Main.storyboard */; };
-		7929D107273156F400D33F5D /* myFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7929D106273156F400D33F5D /* myFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,7 +21,6 @@
 		7929D0D72731565B00D33F5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7929D0D92731565B00D33F5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7929D0DA2731565B00D33F5D /* myApplication.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = myApplication.entitlements; sourceTree = "<group>"; };
-		7929D106273156F400D33F5D /* myFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = myFramework.framework; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,7 +28,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7929D107273156F400D33F5D /* myFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,7 +53,6 @@
 		7929D0CF2731565A00D33F5D /* myApplication */ = {
 			isa = PBXGroup;
 			children = (
-				7929D106273156F400D33F5D /* myFramework.framework */,
 				7929D0D02731565A00D33F5D /* AppDelegate.swift */,
 				7929D0D22731565A00D33F5D /* ViewController.swift */,
 				7929D0D42731565B00D33F5D /* Assets.xcassets */,
