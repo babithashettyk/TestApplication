@@ -16,7 +16,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Insert code here to initialize your application
         myTest.one()
-
+        myTest.two()
+        
+        
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
