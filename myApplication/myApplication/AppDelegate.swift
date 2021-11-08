@@ -18,6 +18,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         myTest.one()
         myTest.two()
         myTest.three()
+        myTest.four()
         
     }
 
