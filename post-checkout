@@ -1,6 +1,2 @@
 #!/bin/sh
-unset GIT_DIR
-echo "Checking out"
-(cd $WORK_DIR && git pull --recurse-submodules=yes --force)
-echo "Submodule update..."
-(cd $WORK_DIR && git --work-tree="$WORK_DIR" submodule update --init --recursive --force)
+git submodule sync && git submodule update --init --recursive
