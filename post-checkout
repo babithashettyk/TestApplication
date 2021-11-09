@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo "# Please include a useful message!" > $1
+exec git submodule update --init --recursive
